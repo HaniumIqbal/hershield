@@ -1,0 +1,79 @@
+name: hershield
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+#  sdk: '>=3.1.0 <4.0.0'
+    sdk: '>=2.19.6 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  flutter_native_splash: ^2.3.3
+  get: 4.6.6
+  flutter: 
+    sdk: flutter
+  google_fonts: 6.1.0
+  flutter_sizer: ^1.0.5
+  auto_size_text: ^3.0.0
+  carousel_slider: ^4.2.1
+  maps_launcher: ^2.2.0
+  url_launcher: ^6.1.14
+  firebase_core: ^2.14.0
+  webview_flutter: ^4.5.0
+
+  cloud_firestore: ^4.8.2
+  timeago: ^3.5.0
+  firebase_storage: ^11.2.4
+  firebase_auth: ^4.6.3 # Use the latest version available
+  flutter_easyloading: ^3.0.5
+  flutter_inappwebview: ^6.0.0
+  geolocator: ^11.0.0
+  geocoding: ^3.0.0
+  share_plus: ^7.2.1
+  get_storage: ^2.1.1
+  flutter_svg: ^2.0.9
+  google_maps_flutter: ^2.5.3
+  location: ^5.0.3
+  permission_handler: ^11.3.1
+  google_api_headers: ^3.6.0
+  awesome_snackbar_content: ^0.1.3
+  google_places_flutter: ^2.0.8
+  flutter_rating_bar: ^4.0.1
+  custom_info_window: ^1.0.1
+  flutter_map_math: ^0.1.7
+  day_night_time_picker: ^1.3.1
+  dotted_border: ^2.1.0
+  slidable_button: ^3.0.0+1
+  slider_button: ^2.1.0
+  date_format: ^2.0.7
+  flutter_email_sender: ^6.0.2
+  mailer: ^6.1.0
+  mailto: ^2.0.0
+  background_location: ^0.13.0
+  flutter_polyline_points: ^2.0.0
+
+
+dev_dependencies: 
+  flutter_lints: ^3.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+
+flutter_native_splash:
+  android: true
+  ios: true
+  color: "#D9A6D7"
+  image: "assets/images/splash.png"
+  background_image: "assets/images/splash.png"
+  android_12:
+
+    image: "assets/images/splash.png"
+    background_image: "assets/images/splash.png"
+  android_gravity: center
+  ios_content_mode: center
+
